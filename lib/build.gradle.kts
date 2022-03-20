@@ -1,8 +1,10 @@
 import com.adarshr.gradle.testlogger.theme.ThemeType
 
 plugins {
+    idea
+
     // Apply the org.jetbrains.kotlin.jvm Plugin to add support for Kotlin.
-    id("org.jetbrains.kotlin.jvm") version "1.5.31"
+    id("org.jetbrains.kotlin.jvm") version "1.6.10"
 
     // https://plugins.gradle.org/plugin/com.adarshr.test-logger
     id("com.adarshr.test-logger") version "3.0.0"
