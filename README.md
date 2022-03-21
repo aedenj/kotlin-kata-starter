@@ -9,7 +9,7 @@ A starting point for a [code kata](http://codekata.com/) in Kotlin using Intelli
 
 ```
 git clone https://github.com/aedenj/kotlin-kata-starter.git ~/projects/katas/hard-problem
-idea ~/projects/katas/hard-problem;rm -rf .git
+cd ~/projects/katas/hard-problem;rm -rf .git;idea .
 ```
 
 Follow the usual TDD process of red, green and refactor.
