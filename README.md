@@ -4,12 +4,22 @@ A starting point for a [code kata](http://codekata.com/) in Kotlin using Intelli
 ### Prerequisites
 
 1. [IntelliJ](https://www.jetbrains.com/idea/download/#section=mac)
-2. [Excalidraw Plugin](https://github.com/bric3/excalidraw-jetbrains-plugin) (Optional) - This plugin is a minimal whiteboard that one could use for visual exploration of problems. 
 ### Up & Running
 
 ```
 git clone https://github.com/aedenj/kotlin-kata-starter.git ~/projects/katas/hard-problem
 cd ~/projects/katas/hard-problem;rm -rf .git;idea .
+```
+Since I frequently use this project I like to wrap everything up in an alias like this,
+
+```
+alias kks='f(){ git clone git@github.com:aedenj/kotlin-kata-starter.git $1; cd $1;rm -rf .git; idea .; unset -f f; }; f'
+```
+
+Usage:
+
+```
+kks ~/somem-path-of-your-choice
 ```
 
 Follow the usual TDD process of red, green and refactor.
