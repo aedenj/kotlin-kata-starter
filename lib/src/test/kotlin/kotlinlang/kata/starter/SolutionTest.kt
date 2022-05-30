@@ -13,7 +13,7 @@ class SolutionTest {
 
     @ParameterizedTest(name="{0} is {1}")
     @MethodSource("scenarios")
-    fun test(input:Boolean, expected:Boolean) {
+    fun tests(input:Boolean, expected:Boolean) {
         assertThat(solution.kata(input)).isEqualTo(expected)
     }
 
