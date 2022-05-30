@@ -19,7 +19,7 @@ alias kks='f(){ git clone git@github.com:aedenj/kotlin-kata-starter.git $1; cd $
 Usage:
 
 ```
-kks ~/somem-path-of-your-choice
+kks ~/problem-of-your-choice
 ```
 
 Follow the usual TDD process of red, green and refactor.
