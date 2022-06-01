@@ -5,6 +5,7 @@ out/
 *.ipr
 *.iws
 data/
+.idea
 
 # vim
 *.swp
