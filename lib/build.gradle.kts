@@ -4,10 +4,10 @@ plugins {
     idea
 
     // Apply the org.jetbrains.kotlin.jvm Plugin to add support for Kotlin.
-    id("org.jetbrains.kotlin.jvm") version "1.6.21"
+    id("org.jetbrains.kotlin.jvm") version "1.9.23"
 
     // https://plugins.gradle.org/plugin/com.adarshr.test-logger
-    id("com.adarshr.test-logger") version "3.0.0"
+    id("com.adarshr.test-logger") version "4.0.0"
 
     // Apply the java-library plugin for API and implementation separation.
     `java-library`
@@ -43,8 +43,8 @@ repositories {
 }
 
 dependencies {
-    val junitVersion = "5.8.2"
-    val assertjVersion = "3.20.2"
+    val junitVersion = "5.10.2"
+    val assertjVersion = "3.25.3"
 
     // Basics
     listOf(
