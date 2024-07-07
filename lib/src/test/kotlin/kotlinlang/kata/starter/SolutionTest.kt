@@ -21,7 +21,10 @@ class SolutionTest {
         @JvmStatic
         fun scenarios(): List<Arguments> {
             return listOf(
-                Arguments.of(Named.of("true", true), Named.of("true", true))
+                Arguments.of(
+                    Named.of("true", true),
+                    Named.of("true", true)
+                ),
             )
         }
     }
