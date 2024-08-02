@@ -44,7 +44,7 @@ repositories {
 
 dependencies {
     val junitVersion = "5.10.2"
-    val assertjVersion = "3.26.0"
+    val assertjVersion = "3.26.3"
 
     // Basics
     listOf(
