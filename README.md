@@ -13,7 +13,7 @@ cd ~/projects/katas/hard-problem;rm -rf .git;idea .
 Since I frequently use this project I like to wrap everything up in an alias like this,
 
 ```
-alias kks='f(){ git clone git@github.com:aedenj/kotlin-kata-starter.git $1; cd $1;rm -rf .git; idea .; unset -f f; }; f'
+alias kks='f(){ git clone git@github.com:aedenj/kotlin-kata-starter.git $1; cd $1;rm -rf .git README.md .gitignore; idea .; unset -f f; }; f'
 ```
 
 Usage:
